@@ -101,8 +101,21 @@
     color:lemonchiffon;
     text-align:center;
 }
+.accordion{
+    border:solid lemonchiffon;
+    padding:1em;
+    color:white;
+    border-width:.3px;
+}
 .accordion-button,.accordion-body{
     text-align:center;
     background-color: #333C3F;
     color:lemonchiffon;
+}
+.slideContainer{
+    background-image:url("http://www.sydlexia.com/blogstuff/smb_bloopers.png");
+    BORDER:SOLID WHITE;
+    border-width:.2px;
+    padding:1em;
+    margin:1em;
 }
