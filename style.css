@@ -107,7 +107,15 @@
     color:white;
     border-width:.3px;
 }
-.accordion-button,.accordion-body{
+.accordion-button{
+    text-align:center;
+    background-color: #333C3F;
+    color:lemonchiffon;
+    font-size:22px;
+    color:lime;
+    font-family: 'Courier New', Courier, monospace;
+}
+.accordion-body{
     text-align:center;
     background-color: #333C3F;
     color:lemonchiffon;
