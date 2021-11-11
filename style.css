@@ -119,3 +119,23 @@
     padding:1em;
     margin:1em;
 }
+.socialMediaHub{
+    display:flex;
+    justify-content: space-between;
+    background-color:#333C3F;border:solid white;border-width:.3px;text-align:center;
+}
+
+.lg-ic{
+    height:40px;
+    margin:5px;
+    padding:4px;
+    border-radius:50%;
+}
+.lg-ic:hover{
+    height:40px;
+    border-radius:50%;
+    margin:5px;
+    padding:4px;
+    -webkit-box-shadow: 5px 5px 25px 12px #FFB478; 
+    box-shadow: 5px 5px 25px 12px #FFB478;
+}
