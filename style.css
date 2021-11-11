@@ -1,0 +1,108 @@
+@media(max-width: 2400px) {
+    body {
+      background-color: lightseagreen;
+    }
+  }
+
+  @media(max-width: 1800px) {
+    body {
+      background-color: black;
+    }
+  }
+
+  @media(max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  }
+
+.navContainer{
+    border:solid white;
+    border-width:.2px;
+    justify-content: space-evenly;
+    display:flex;
+    padding:8px;
+}
+.navTab{
+    border-width:.6px;
+    color:white;
+    margin:5px;
+    padding:2px;
+
+}
+.navTab:hover{
+    border-width:.6px;
+    color:lime;
+    margin:5px;
+    padding:2px;
+
+}
+.headerImgOne{
+    width:100vw;
+    border:solid white;
+    border-width:.2px;
+}
+.julian{
+    color:white;
+    text-align:center;
+    font-size:72px;
+}
+.atop{
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    padding:3px;
+}
+.cartz{
+    height:40px;
+    border-radius:50%;
+}
+.audioBtn{
+    color:white;
+    width:auto;
+}
+.login,.register{
+    color:#333C3F;
+    margin-top:8px;
+}
+.beatContainer{
+    /* border:solid lime; */
+    margin:1em;
+    border-width:.3px;
+    padding:1em;
+
+}
+.soundBox{
+    border:double lemonchiffon;
+    padding:1em;
+}
+.card{
+    color:white;
+}
+.card-body{
+    background-color:#333C3F;
+}
+.card-text{
+    color:tan
+}
+.accordion{
+    background-color:#333C3F;
+}
+.productContainer{
+    height:32vh;
+    background-color: #333C3F;
+    padding:2em;
+    margin-bottom:3em;
+}
+.dropdown{
+    width:100%;
+}
+.offcanvas{
+    color:lemonchiffon;
+    text-align:center;
+}
+.accordion-button,.accordion-body{
+    text-align:center;
+    background-color: #333C3F;
+    color:lemonchiffon;
+}
