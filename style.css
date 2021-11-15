@@ -1,18 +1,21 @@
 @media(max-width: 2400px) {
     body {
       background-color: lightseagreen;
+      font-family:'Courier New', Courier, monospace;
     }
   }
 
   @media(max-width: 1800px) {
     body {
       background-color: black;
+      font-family:'Courier New', Courier, monospace;
     }
   }
 
   @media(max-width: 600px) {
     body {
       background-color: black;
+      font-family:'Courier New', Courier, monospace;
     }
   }
 
@@ -85,6 +88,9 @@
 .card-text{
     color:tan
 }
+.card-title{
+    text-align:right;
+}
 .accordion{
     background-color:#333C3F;
 }
@@ -112,7 +118,7 @@
     background-color: #333C3F;
     color:lemonchiffon;
     font-size:22px;
-    color:lime;
+    color:peru;
     font-family: 'Courier New', Courier, monospace;
 }
 .accordion-body{
@@ -121,8 +127,9 @@
     color:lemonchiffon;
 }
 .slideContainer{
-    background-image:url("http://www.sydlexia.com/blogstuff/smb_bloopers.png");
-    BORDER:SOLID WHITE;
+    /* background-image:url("http://www.sydlexia.com/blogstuff/smb_bloopers.png"); */
+    background-color:black;
+    border:solid white;
     border-width:.2px;
     padding:1em;
     margin:1em;
